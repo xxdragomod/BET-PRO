@@ -1,7 +1,7 @@
 function App() {
   return (
     <iframe
-      src="/api/proxy"
+      src="http://46.247.108.191:30093/proxy"
       title="8sikkim.com"
       style={{
         position: "fixed",
