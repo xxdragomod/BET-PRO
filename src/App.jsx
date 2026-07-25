@@ -1,7 +1,7 @@
 function App() {
   return (
     <iframe
-      src="https://8sikkim.com"
+      src="/api/proxy"
       title="8sikkim.com"
       style={{
         position: "fixed",
@@ -10,8 +10,6 @@ function App() {
         width: "100%",
         height: "100%",
         border: "none",
-        margin: 0,
-        padding: 0,
       }}
     />
   );
