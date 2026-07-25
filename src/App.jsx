@@ -1,13 +1,20 @@
 function App() {
   return (
-    <div
+    <iframe
+      src="https://8sikkim.com"
+      title="8sikkim.com"
       style={{
-        backgroundColor: "#ffffff",
-        minHeight: "100vh",
+        position: "fixed",
+        top: 0,
+        left: 0,
         width: "100%",
+        height: "100%",
+        border: "none",
+        margin: 0,
+        padding: 0,
       }}
     />
-  )
+  );
 }
 
-export default App
+export default App;
